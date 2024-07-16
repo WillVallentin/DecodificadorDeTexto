@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+}
+
+body {
+    background-color: var(--cordetalhe);
+}
+
+:root {
+    --corprincipal: #17153B;
+    --corsecundaria: #f9feff;
+    --cordecoracao: #C8ACD6;
+    --cortitulo: #433D8B;
+    --cordetalhe: #FCF8F3;
+    --corparagrafos: #211f36;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.cabecalho h1 {
+    color: var(--cortitulo);
+}
+
+.cabecalho img {
+    max-width: 700px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+span {
+    color: var(--corparagrafos);
+    font-weight: 500;
+}
+
+.paragrafo {
+    color: var(--corparagrafos);
+    font-weight: 600;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0 0 4%;
+
+}
+
+.container-input .input {
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto {
+    width: 360px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 370px;
+    height: 450px;
+    margin-right: 3%;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+
+}
+
+.container-bnt button{
+    font-weight: 700;
+    background-color: #c4d0ee65;
+    border: 2px solid var(--corprincipal);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corprincipal);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover {
+    background-color: var(--cortitulo);
+    color: var(--cordetalhe);
+    transition: 0.2s all ease in out;
+}
+
+.btn-copiar {
+    font-weight: 600;
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    background-color: var(--cortitulo);
+    color: var(--cordetalhe);
+    border-bottom: 5px solid var(--corprincipal);
+    transition: 0.2s all ease in out;
+}
+
+.container-bnt button:hover {
+    background-color: var(--corprincipal);
+    color: var(--corsecundaria);
+    transition: 0.2s ;
+}
+
+.rodape {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+    margin-top: 15px;
+    background: var(--corprincipal);
+    color: var(--cortitulo);
+}
+
+.rodape h3 {
+    font-size: 16px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons ion-icon {
+    width: 35px;
+    height: 25px;
+    color: var(--cortitulo);
+}
+
+.icons ion-icon:hover {
+    color: var(--corsecundaria);
+    transition: 0.5s all;
+}
+
+/* -- Reponsiva aqui -- */

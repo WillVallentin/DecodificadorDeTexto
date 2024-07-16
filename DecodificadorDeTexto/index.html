@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/code.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main class="main container">
+        <header class="cabecalho">
+          <img src="./assets/code.png" alt="logo">
+          <h1>Mensagens Codificadas</h1>
+        </header>
+
+    <div class="container-input">
+      <div class="input">
+        <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+        <p class="paragrafo">Atenção: Apenas letras maiúsculas</p>
+      </div>
+      
+      <div id="output">
+        <img src="./assets/computer.png" alt="">
+        <h2>Sua mensagem aparecerá aqui.</h2>
+        <p class="paragrafo">Digite um texto que deseja criptografar ou descriptografar</p>
+      </div>
+    </div>
+   
+    <div class="buttons">
+        <div class="container-bnt">
+          <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+          <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+  </main>
+
+    <footer class="rodape">
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/william-valentin-dev/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://www.instagram.com/will.vallentin/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/WillVallentin" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        <h3>Desenvolvido por William Valentin</h3>
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
